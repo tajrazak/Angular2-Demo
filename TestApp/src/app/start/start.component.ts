@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./start.component.css']
 })
 export class StartComponent implements OnInit {
-  
+  hero:boolean = true;
+  color:string = "blue";
   constructor() { }
 
   ngOnInit() {

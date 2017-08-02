@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { StartComponent } from './start/start.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     LoginComponent,
     SignupComponent,
     StartComponent,
-    DashboardComponent
+    DashboardComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

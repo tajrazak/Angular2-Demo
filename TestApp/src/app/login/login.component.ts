@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  color:string = 'blue';
+  size:string = '20px';
+  color:string = 'red';
   constructor() { }
 
   ngOnInit() {
